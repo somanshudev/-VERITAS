@@ -1,0 +1,28 @@
+{
+  "name": "veritas-ic-verification",
+  "version": "1.0.0",
+  "description": "VERITAS: Verification Engine for Reliable Integrated Circuits & Trusted Assembly Systems",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^4.3.3",
+    "axios": "^1.6.8",
+    "lucide-react": "^0.294.0",
+    "mongodb": "^6.20.0",
+    "next": "^14.0.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
